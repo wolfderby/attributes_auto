@@ -141,7 +141,7 @@ if(!empty($what_went_down)){
 
 <?php
 $autoCatTableSql = 'SELECT pa.*, cd.categories_id, cd.categories_name, po.products_options_id, po.products_options_name, pov.products_options_values_id, pov.products_options_values_name 
-                    FROM `products_attributes_auto` as PA 
+                    FROM `products_attributes_auto` as pa 
                     JOIN `categories_description` as cd 
                         on pa.att_auto_to_cat = cd.categories_id 
                     JOIN `products_options` as po 
