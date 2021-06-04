@@ -1,5 +1,3 @@
 <?php
-$autoLoadConfig[200][] = array(
-    'autoType' => 'init_script',
-    'loadFile' => 'init_auto_attrib.php'
-);
+define('FILENAME_AUTO_ATTRIB', 'auto_attrib'); //auto_attrib.php
+define('BOX_TOOLS_AUTO_ATTRIB', 'Automated Attributes');
